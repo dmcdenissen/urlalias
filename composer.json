@@ -1,0 +1,28 @@
+{
+    "name": "dmcdenissen/urlalias",
+    "description": "Laravel package: Creating SEO friendly urls/slugs for other paths",
+    "keywords": [
+        "laravel",
+        "alias",
+        "url",
+        "slug",
+        "route"
+    ],
+    "authors": [
+        {
+            "name": "Dave Denissen",
+            "email": "dave@in2design.nl"
+        }
+    ],
+    "require": {
+        "php": "~5.5|~7.0",
+        "illuminate/support": "~5.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "dmcdenissen\\urlalias\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
